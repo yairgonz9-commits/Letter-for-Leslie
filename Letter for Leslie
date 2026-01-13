@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Para Ti, Desde Mi Corazón</title>
+
+  <!-- Google Font cursiva -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #000000, #000000);
+      font-family: 'Playfair Display', serif;
+      color: #4b2e3f;
+    }
+
+    .contenedor {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+    }
+
+    .carta {
+      background: #fffafc;
+      max-width: 850px;
+      padding: 70px 60px;
+      border-radius: 16px;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+      position: relative;
+    }
+
+    .carta::before {
+      content: "❤";
+      position: absolute;
+      top: -18px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #fffafc;
+      padding: 6px 14px;
+      font-size: 22px;
+      color: #000000;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      font-size: 56px;
+      margin-bottom: 40px;
+      color: #000000;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.9;
+      margin-bottom: 26px;
+    }
+
+    .corto {
+      text-align: center;
+      font-style: italic;
+      font-size: 19px;
+      color: #7a445e;
+    }
+
+    .musica {
+      margin: 50px 0 10px;
+      text-align: center;
+    }
+
+    .musica p {
+      font-size: 14px;
+      opacity: 0.7;
+      margin-bottom: 12px;
+    }
+
+    iframe {
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .firma {
+      margin-top: 60px;
+      text-align: right;
+      font-family: 'Great Vibes', cursive;
+      font-size: 32px;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <div class="carta">
+
+      <h1>Para Ti</h1>
+
+      <p>
+        Recuerdo el día en que te conocí.
+        No sabía nada,
+        pero algo en ti se sintió distinto.
+      </p>
+
+      <p>
+        Con el tiempo empezamos a hablar.
+        Sin darnos cuenta,
+        empezamos a construir.
+        Y yo empecé a quererte.
+      </p>
+
+      <p>
+        He cometido errores.
+        Algunos grandes.
+        Algunos imperdonables.
+        Decisiones que hoy no me representan.
+      </p>
+
+      <p>
+        No siempre estuve cuando debía.
+        No siempre supe cuidar.
+        Y lo sé.
+      </p>
+
+      <p class="corto">
+        Pero hay algo que nunca ha cambiado:
+        te amo.
+      </p>
+
+      <p>
+        Te amo de una forma honesta,
+        imperfecta,
+        pero real.
+      </p>
+
+      <p>
+        Siempre voy a apoyarte.
+        Siempre voy a estar ahí para ti.
+        Dándote todo mi soporte.
+      </p>
+
+      <p>
+        Quiero crecer a tu lado.
+        Ser mejor persona.
+        Mejor esposo.
+        Mejor ser humano.
+      </p>
+
+      <p class="corto">
+        Porque tú mereces lo mejor de mí.
+      </p>
+
+      <p>
+        Todo mi esfuerzo por estar cerca de ti,
+        por hacer las cosas bien,
+        por demostrarte lo que siento,
+        existe porque tú eres mi familia.
+      </p>
+
+      <p>
+        Eres la persona con la que me imagino el resto de mi vida.
+        En lo simple.
+        En lo difícil.
+        En lo real.
+      </p>
+
+      <p class="corto">
+        Elegirte es lo más sincero que sé hacer.
+      </p>
+
+      <!-- Música -->
+      <div class="musica">
+        <p>Te dejo esta canción, porque dice lo que a veces no sé explicar:</p>
+
+        <!-- CAMBIA EL LINK POR TU CANCIÓN -->
+        <iframe width="100%" height="166"
+          src="https://www.youtube.com/watch?v=_G-k6TQYUek&list=RD_G-k6TQYUek&start_radio=1"
+          title="Canción"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="firma">
+        Con todo mi corazón
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
